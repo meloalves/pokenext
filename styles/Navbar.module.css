@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.2em;
+  margin-bottom: 2em;
+  background-color: #e33d33;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: .5em;
+}
+
+.linkIcons {
+  display: flex;
+  list-style: none;
+  margin-right: 1.3em;
+}
+
+.linkIcons li {
+  margin-right: 1.3em;
+  margin-top: .3em;
+}
+
+.linkIcons a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: .4s;
+  border-bottom: 2px solid transparent;
+}
+
+.linkIcons a:hover {
+  border-color: #fff;
+}
